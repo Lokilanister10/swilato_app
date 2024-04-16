@@ -5,7 +5,7 @@ import 'package:swilato_app/main.dart';
 void main() {
   testWidgets('Test SensorApp functionality', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const SensorApp());
+    await tester.pumpWidget(const MaterialApp());
 
     // Verify that the Start Recording button is present
     expect(find.text('Start Recording'), findsOneWidget);
